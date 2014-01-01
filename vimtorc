@@ -1,0 +1,17 @@
+" vimto
+
+" load pathogen
+source ~/.vimto/plugins/pathogen/autoload/pathogen.vim
+
+" setup ignore list for pathogen
+let g:pathogen_disabled = []
+
+" infect
+execute pathogen#infect('~/.vimto/plugins/{}', '~/.vimto/themes/{}')
+execute pathogen#helptags()
+
+" source rc directory
+for rcfile in split(globpath('~/.vimto/rc', '*.vim'), '\n') 
+  execute('source ' . rcfile)
+endfor
+
