@@ -12,13 +12,13 @@
 " let g:vimto#minimal_gui = 1
 
 " uncomment if you want to use arrow keys
-" let g:vimto#allow_arrows = 1
+" let g:vimto#disable_arrows = 1
 
 " uncomment to stop vimto making any custom keymaps
 " let g:vimto#disable_mapping = 1
 
 " uncomment to enable hardmode
-" let g:vimto#hardmode = 1
+" let g:vimto#enable_hardmode = 1
 
 " uncomment to enable airline's tabline
 " let g:vimto#enable_tabline = 1

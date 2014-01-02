@@ -2,7 +2,7 @@
 set backspace=indent,eol,start
 
 " disable the arrow keys
-if !exists('vimto#allow_arrows')
+if exists('vimto#disable_arrows')
   inoremap <Up> <NOP>
   inoremap <Down> <NOP>
   inoremap <Left> <NOP>

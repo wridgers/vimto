@@ -100,3 +100,6 @@
 [submodule "plugins/unite-tag"]
 	path = plugins/unite-tag
 	url = https://github.com/tsukkee/unite-tag.git
+[submodule "plugins/easymotion"]
+	path = plugins/easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
