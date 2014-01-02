@@ -1,8 +1,8 @@
-# vimto
+#vimto
 
 vimto is an open source vim configuration.
 
-## Installation
+##Installation
 
 vimto is easy to install.
 
@@ -16,8 +16,7 @@ vimto is easy to install.
 
 And you're ready to go! I will be adding install/update scripts soon.
 
-## Support
+##Support
 
 vimto is tested on Mac OSX, but should work on all systems. I will be
 officially supporting and testing vimto on Windows/Linux in a few days.
-
