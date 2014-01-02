@@ -6,10 +6,10 @@
 " let g:vimto#theme = 'molokai'
 
 " uncomment to change the number of cols to use for tabs (default is 4)
-let g:vimto#tab_size = 2
+" let g:vimto#tab_size = 2
 
 " uncomment if you want a minimal gui in gvim
-let g:vimto#minimal_gui = 1
+" let g:vimto#minimal_gui = 1
 
 " uncomment if you want to use arrow keys
 " let g:vimto#allow_arrows = 1
@@ -20,6 +20,9 @@ let g:vimto#minimal_gui = 1
 " uncomment to enable hardmode
 " let g:vimto#hardmode = 1
 
+" uncomment to enable airline's tabline
+" let g:vimto#enable_tabline = 1
+
 " load vimto
 source ~/.vimto/vimtorc
 
@@ -28,5 +31,5 @@ source ~/.vimto/vimtorc
 " ---------------------------------------------------------------------
 
 " uncomment to change spelllang
-set spelllang=en_gb
+" set spelllang=en_gb
 

@@ -91,3 +91,12 @@
 [submodule "plugins/scss"]
 	path = plugins/scss
 	url = https://github.com/cakebaker/scss-syntax.vim.git
+[submodule "themes/tomorrow"]
+	path = themes/tomorrow
+	url = https://github.com/chriskempson/vim-tomorrow-theme.git
+[submodule "themes/solarized"]
+	path = themes/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "plugins/unite-tag"]
+	path = plugins/unite-tag
+	url = https://github.com/tsukkee/unite-tag.git

@@ -25,8 +25,8 @@ let g:unite_matcher_fuzzy_max_input_length = 64
 if !exists('vimto#disable_mapping')
   nnoremap <leader>b :Unite buffer<cr>
   nnoremap <leader>f :Unite file_rec<cr>
-  nnoremap <leader>g :Unite grep:.<cr>
   nnoremap <leader>r :Unite file_mru<cr>
+  nnoremap <leader>t :Unite tag<cr>
   nnoremap <leader>y :Unite history/yank<cr>
 endif
 
