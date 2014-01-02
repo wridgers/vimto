@@ -2,8 +2,17 @@
 " custom vimto settings
 " ---------------------------------------------------------------------
 
-" uncomment to change the colorscheme
-" let g:vimto#theme = 'molokai'
+" uncomment to change the vim colorscheme
+" let g:vimto#term_theme = 'jellybeans'
+
+" uncomment to chnage the gvim colorscheme
+" let g:vimto#gui_theme = 'base16-default'
+
+" uncomment to use a light background (the default is dark)
+" let g:vimto#background_light = 1
+
+" uncomment to enable transparency in gvim
+" let g:vimto#gui_transparent = 1
 
 " uncomment to change the number of cols to use for tabs (default is 4)
 " let g:vimto#tab_size = 2

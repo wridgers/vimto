@@ -103,3 +103,15 @@
 [submodule "plugins/easymotion"]
 	path = plugins/easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "themes/wombat"]
+	path = themes/wombat
+	url = https://github.com/vim-scripts/wombat256.vim.git
+[submodule "themes/badwolf"]
+	path = themes/badwolf
+	url = https://github.com/sjl/badwolf.git
+[submodule "themes/luna"]
+	path = themes/luna
+	url = https://github.com/Pychimp/vim-luna.git
+[submodule "themes/sol"]
+	path = themes/sol
+	url = https://github.com/Pychimp/vim-sol.git

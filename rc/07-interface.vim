@@ -1,10 +1,18 @@
 " set colorscheme
-if !exists('vimto#theme')
-  let g:vimto#theme = 'jellybeans'
-endif
+if !has('gui_running')
+  if !exists('vimto#term_theme')
+    let g:vimto#term_theme = 'jellybeans'
+  endif
 
-set background=dark
-execute 'colorscheme '  . g:vimto#theme
+  if exists('vimto#background_light')
+    set background=light
+  else
+    set background=dark
+  endif
+
+  " set the colorscheme
+  execute 'colorscheme '  . g:vimto#term_theme
+endif
 
 " nice terminal title
 set title
