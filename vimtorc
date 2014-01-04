@@ -7,7 +7,7 @@ source ~/.vimto/plugins/pathogen/autoload/pathogen.vim
 let g:pathogen_disabled = []
 
 " infect
-execute pathogen#infect('~/.vimto/plugins/{}', '~/.vimto/themes/{}')
+execute pathogen#infect('~/.vimto/plugins/{}', '~/.vimto/themes/{}', '~/.vim/plugins/{}')
 execute pathogen#helptags()
 
 " source rc directory
