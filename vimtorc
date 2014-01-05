@@ -2,7 +2,7 @@
 " vim: syntax=vim
 
 " load pathogen
-source ~/.vimto/plugins/pathogen/autoload/pathogen.vim
+source $HOME/.vimto/plugins/pathogen/autoload/pathogen.vim
 
 " setup ignore list for pathogen
 let g:pathogen_disabled = []
