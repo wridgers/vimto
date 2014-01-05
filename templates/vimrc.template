@@ -33,7 +33,7 @@
 " let g:vimto#enable_tabline = 1
 
 " load vimto
-source ~/.vimto/vimtorc
+source $HOME/.vimto/vimtorc
 
 " ---------------------------------------------------------------------
 " custom vim settings

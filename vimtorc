@@ -1,4 +1,5 @@
 " vimto
+" vim: syntax=vim
 
 " load pathogen
 source ~/.vimto/plugins/pathogen/autoload/pathogen.vim
@@ -7,11 +8,11 @@ source ~/.vimto/plugins/pathogen/autoload/pathogen.vim
 let g:pathogen_disabled = []
 
 " infect
-execute pathogen#infect('~/.vimto/plugins/{}', '~/.vimto/themes/{}', '~/.vim/plugins/{}')
+execute pathogen#infect('$HOME/.vimto/plugins/{}', '$HOME/.vimto/themes/{}', '$HOME/.vim/plugins/{}')
 execute pathogen#helptags()
 
 " source rc directory
-for rcfile in split(globpath('~/.vimto/rc', '*.vim'), '\n') 
+for rcfile in split(globpath('$HOME/.vimto/rc', '*.vim'), '\n') 
   execute('source ' . rcfile)
 endfor
 
