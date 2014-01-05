@@ -32,9 +32,9 @@ This is pretty much all the above shell script does.
 
 Vimto works great on Windows too and the installation isn't much different.
 
-  1) Clone the repository to `$HOME/.vimto` using cmd.exe
-  2) git submodule init/sync/update
-  3) Copy vimrc.template to `$HOME/_vimrc`
+  1. Clone the repository to `$HOME/.vimto` using cmd.exe
+  2. git submodule init/sync/update
+  3. Copy vimrc.template to `$HOME/_vimrc`
 
 Good to go!
 
