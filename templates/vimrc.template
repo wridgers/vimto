@@ -2,14 +2,17 @@
 " custom vimto settings
 " ---------------------------------------------------------------------
 
-" uncomment to change the vim colorscheme
-" let g:vimto#term_theme = 'jellybeans'
+" uncomment to change the terminal colorscheme
+" let g:vimto#term_theme = 'badwolf'
 
-" uncomment to chnage the gvim colorscheme
-" let g:vimto#gui_theme = 'base16-default'
+" uncomment to use a light background for the terminal theme
+" let g:vimto#term_background_light = 1
 
-" uncomment to use a light background (the default is dark)
-" let g:vimto#background_light = 1
+" uncomment to chnage the gui colorscheme
+" let g:vimto#gui_theme = 'solarized'
+
+" uncomment to use a light background for the gui theme
+" let g:vimto#gui_background_light = 1
 
 " uncomment to enable transparency in gvim
 " let g:vimto#gui_transparent = 1
@@ -33,7 +36,7 @@
 " let g:vimto#enable_tabline = 1
 
 " load vimto
-source $HOME/.vimto/vimtorc
+source ~/.vimto/vimtorc
 
 " ---------------------------------------------------------------------
 " custom vim settings

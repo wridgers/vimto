@@ -5,7 +5,7 @@ if has('gui_running')
   endif
 
   " dark or light
-  if exists('vimto#background_light')
+  if exists('vimto#gui_background_light')
     set background=light
   else
     set background=dark

@@ -5,5 +5,6 @@ set hlsearch
 set incsearch
 
 " case insensitive, unless we start to capitalise
+set ignorecase
 set smartcase
 

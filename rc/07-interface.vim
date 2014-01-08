@@ -4,7 +4,7 @@ if !has('gui_running')
     let g:vimto#term_theme = 'jellybeans'
   endif
 
-  if exists('vimto#background_light')
+  if exists('vimto#term_background_light')
     set background=light
   else
     set background=dark
@@ -25,6 +25,9 @@ set ruler
 
 " highlight current line
 set cursorline
+
+" don't wrap lines
+set nowrap
 
 " show current command in status line
 set showcmd

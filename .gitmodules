@@ -115,3 +115,6 @@
 [submodule "themes/sol"]
 	path = themes/sol
 	url = https://github.com/Pychimp/vim-sol.git
+[submodule "plugins/rooter"]
+	path = plugins/rooter
+	url = https://github.com/airblade/vim-rooter.git

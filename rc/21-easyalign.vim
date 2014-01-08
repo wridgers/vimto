@@ -3,6 +3,6 @@ if !exists('vimto#disable_mapping')
   vmap <Enter> <Plug>(EasyAlign)
 
   " interactive easyalign
-  nmap <Leader>a <Plug>(EasyAlign)
+  nmap <Leader>= <Plug>(EasyAlign)
 endif
 

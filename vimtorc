@@ -7,6 +7,9 @@ source $HOME/.vimto/plugins/pathogen/autoload/pathogen.vim
 " setup ignore list for pathogen
 let g:pathogen_disabled = []
 
+" disable a plugin
+" call add(g:pathogen_disabled, 'example')
+
 " infect
 execute pathogen#infect('$HOME/.vimto/plugins/{}', '$HOME/.vimto/themes/{}', '$HOME/.vim/plugins/{}')
 execute pathogen#helptags()

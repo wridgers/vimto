@@ -28,7 +28,7 @@ if !exists('vimto#disable_mapping')
   map Y y$
 
   " select all
-  map <Leader>a ggVG
+  map <leader>a ggVG
 
   " toggle paste mode
   set pastetoggle=<F2>
