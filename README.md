@@ -71,6 +71,10 @@ Good to go!
   - [twig](https://github.com/beyondwords/vim-twig)
   - [unite](https://github.com/Shougo/unite.vim)
   - [unite-tag](https://github.com/tsukkee/unite-tag)
+  - [vdebug](https://github.com/joonty/vdebug)
+  - [vimproc](https://github.com/Shougo/vimproc.vim)
+  - [vimshell](https://github.com/Shougo/vimshell.vim)
+  - [ycm](https://github.com/Valloric/YouCompleteMe)
 
 ##Bundled themes
 
