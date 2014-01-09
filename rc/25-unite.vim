@@ -23,10 +23,18 @@ call unite#filters#sorter_default#use(['sorter_rank'])
 let g:unite_matcher_fuzzy_max_input_length = 64
 
 if !exists('vimto#disable_mapping')
+  " basic unite mappings
   nnoremap <leader>b :Unite buffer<cr>
-  nnoremap <leader>f :Unite file_rec<cr>
   nnoremap <leader>r :Unite file_mru<cr>
   nnoremap <leader>t :Unite tag<cr>
   nnoremap <leader>y :Unite history/yank<cr>
+
+  if exists('vimto#enable_vimproc')
+    " if we've got vimproc, use async
+    nnoremap <leader>f :Unite file_rec/async<cr>
+  else
+    " fallback to (slower) file_rec
+    nnoremap <leader>f :Unite file_rec<cr>
+  endif
 endif
 

@@ -118,3 +118,15 @@
 [submodule "plugins/rooter"]
 	path = plugins/rooter
 	url = https://github.com/airblade/vim-rooter.git
+[submodule "plugins/vimproc"]
+	path = plugins/vimproc
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "plugins/vimshell"]
+	path = plugins/vimshell
+	url = https://github.com/Shougo/vimshell.vim.git
+[submodule "plugins/vdebug"]
+	path = plugins/vdebug
+	url = https://github.com/joonty/vdebug.git
+[submodule "plugins/ycm"]
+	path = plugins/ycm
+	url = https://github.com/Valloric/YouCompleteMe.git

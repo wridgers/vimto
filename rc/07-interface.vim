@@ -45,7 +45,7 @@ set wildmenu
 
 " display trailing spaces
 set list
-set listchars=trail:⋅
+set listchars=tab:→\ ,trail:⋅
 
 " resize splits on window resize
 au VimResized * exe "normal! \<c-w>="

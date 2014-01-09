@@ -7,11 +7,33 @@ source $HOME/.vimto/plugins/pathogen/autoload/pathogen.vim
 " setup ignore list for pathogen
 let g:pathogen_disabled = []
 
-" disable a plugin
-" call add(g:pathogen_disabled, 'example')
+" some plugins require python
+if ! has('python')
+  call add(g:pathogen_disabled, 'editorconfig')
+  call add(g:pathogen_disabled, 'vdebug')
+endif
+
+if has('win32') || has('win64')
+  call add(g:pathogen_disabled, 'editorconfig')
+endif
+
+" if we're not using vimproc, don't load it nor vimshell
+if ! exists('vimto#enable_vimproc')
+  call add(g:pathogen_disabled, 'vimproc')
+  call add(g:pathogen_disabled, 'vimshell')
+endif
+
+" use ycm over supertab
+if exists('vimto#enable_ycm')
+  " disable supertab
+  call add(g:pathogen_disabled, 'supertab')
+else
+  " don't use ycm, fallback to supertab
+  call add(g:pathogen_disabled, 'ycm')
+endif
 
 " infect
-execute pathogen#infect('$HOME/.vimto/plugins/{}', '$HOME/.vimto/themes/{}', '$HOME/.vim/plugins/{}')
+execute pathogen#infect('$HOME/.vimto/plugins/{}', '$HOME/.vimto/themes/{}', '$HOME/.vim/plugins/{}', '$HOME/.vim/themes/{}')
 execute pathogen#helptags()
 
 " source rc directory
