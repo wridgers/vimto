@@ -23,7 +23,7 @@
 " uncomment if you want a minimal gui in gvim
 " let g:vimto#minimal_gui = 1
 
-" uncomment if you want to use arrow keys
+" uncomment if you want to disable arrow keys
 " let g:vimto#disable_arrows = 1
 
 " uncomment to stop vimto making any custom keymaps
