@@ -41,7 +41,7 @@ Good to go.
 
 ##Bundled plugins
 
-  - [airline](https://github.com/bling/vim-airline) - lean and mean status and tabline
+  - [airline](https://github.com/bling/vim-airline)
   - [autoclose](https://github.com/Townk/vim-autoclose)
   - [coffeescript](https://github.com/kchmck/vim-coffee-script)
   - [commandcaps](https://github.com/takac/vim-commandcaps)
