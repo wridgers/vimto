@@ -13,8 +13,10 @@ if ! has('python')
   call add(g:pathogen_disabled, 'vdebug')
 endif
 
+" these plugins appear not work on Windows :(
 if has('win32') || has('win64')
   call add(g:pathogen_disabled, 'editorconfig')
+  call add(g:pathogen_disabled, 'vdebug')
 endif
 
 " if we're not using vimproc, don't load it nor vimshell
@@ -33,7 +35,8 @@ else
 endif
 
 " infect
-execute pathogen#infect('$HOME/.vimto/plugins/{}', '$HOME/.vimto/themes/{}', '$HOME/.vim/plugins/{}', '$HOME/.vim/themes/{}')
+" using $HOME here seems to break on Windows
+execute pathogen#infect('~/.vimto/plugins/{}', '~/.vimto/themes/{}', '~/.vim/plugins/{}', '~/.vim/themes/{}')
 execute pathogen#helptags()
 
 " source rc directory
