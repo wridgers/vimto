@@ -102,3 +102,10 @@ Work in progress. For now, I recommend reading `rc/11-mapping.vim` to
 understand the basic keymappings that vimto introduces, and reading the docs
 available for each plugin.
 
+##Thanks
+
+Special thanks to
+
+  - [James Crockford](https://github.com/JamesCrockford) for testing and the awesome logo
+  - [James Fielder](https://github.com/jamesfielder) for testing
+  - [Roshan Bhalla](https://github.com/rbhalla) for testing
