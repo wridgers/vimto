@@ -23,7 +23,7 @@ echo "Updating git submodules, this may take a while."
 cd $VIMTO
 git submodule init
 git submodule sync
-git submodule update --resursive
+git submodule update --recursive
 cd -
 
 # backup vimrc if it already exists
