@@ -8,11 +8,11 @@ vimto is easy to install.
 
 ###Linux and Mac OSX - almost automatically
 
-You can install vimto quickly by curling the `install.sh` bash script, reading
-it, and executing it. Piping shell scripts directly into `sh` might be
+You can install vimto quickly by downloading the `install.sh` bash script, 
+reading it, and executing it. Piping shell scripts directly into `sh` might be
 tempting, but it's a security risk and you shouldn't be doing it.
 
-    $ curl https://raw.github.com/wridgers/vimto/master/tools/install.sh
+    $ wget https://raw.github.com/wridgers/vimto/master/tools/install.sh -O install.sh
     $ vim install.sh # READ IT
     $ chmod +x install.sh
     $ ./install.sh
