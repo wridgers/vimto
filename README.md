@@ -2,6 +2,8 @@
 
 vimto is an open source vim configuration for Linux, OSX, and Windows.
 
+![](http://www.wor.io/vimto.png)
+
 ##Installation
 
 vimto is easy to install.
