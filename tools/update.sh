@@ -15,7 +15,7 @@ git pull origin master
 echo "Updating submodules..."
 git submodule init
 git submodule sync
-git submodule update
+git submodule update --recursive
 
 # go back to original directory
 cd -
