@@ -130,3 +130,6 @@
 [submodule "plugins/ycm"]
 	path = plugins/ycm
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "plugins/orgmode"]
+	path = plugins/orgmode
+	url = https://github.com/jceb/vim-orgmode.git

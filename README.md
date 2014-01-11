@@ -1,18 +1,19 @@
 #vimto
 
-vimto is an open source vim configuration.
+vimto is an open source vim configuration for Linux, OSX, and Windows.
 
 ##Installation
 
 vimto is easy to install.
 
-###Linux and Mac OSX - automatically
+###Linux and Mac OSX - almost automatically
 
 You can install vimto quickly by curling the `install.sh` bash script, reading
 it, and executing it. Piping shell scripts directly into `sh` might be
 tempting, but it's a security risk and you shouldn't be doing it.
 
     $ curl https://raw.github.com/wridgers/vimto/master/tools/install.sh
+    $ vim install.sh # READ IT
     $ chmod +x install.sh
     $ ./install.sh
 
@@ -30,17 +31,17 @@ This is pretty much all the above shell script does.
 
 ###Windows
 
-Vimto works great on Windows too and the installation isn't much different.
+Vimto works great on Windows too and the installation isn't much different, although there is no automatic script!
 
   1. Clone the repository to `$HOME/.vimto` using cmd.exe
   2. git submodule init/sync/update
   3. Copy vimrc.template to `$HOME/_vimrc`
 
-Good to go!
+Good to go.
 
 ##Bundled plugins
 
-  - [airline](https://github.com/bling/vim-airline)
+  - [airline](https://github.com/bling/vim-airline) - lean and mean status and tabline
   - [autoclose](https://github.com/Townk/vim-autoclose)
   - [coffeescript](https://github.com/kchmck/vim-coffee-script)
   - [commandcaps](https://github.com/takac/vim-commandcaps)
@@ -60,6 +61,7 @@ Good to go!
   - [localrc](https://github.com/thinca/vim-localrc)
   - [markdown](https://github.com/tpope/vim-markdown)
   - [nerdtree](https://github.com/scrooloose/nerdtree)
+  - [orgmode](https://github.com/jceb/vim-orgmode.git)
   - [pathogen](https://github.com/tpope/vim-pathogen)
   - [rooter](https://github.com/airblade/vim-rooter)
   - [scss](https://github.com/cakebaker/scss-syntax.vim)
