@@ -133,3 +133,6 @@
 [submodule "plugins/orgmode"]
 	path = plugins/orgmode
 	url = https://github.com/jceb/vim-orgmode.git
+[submodule "plugins/speeddating"]
+	path = plugins/speeddating
+	url = https://github.com/tpope/vim-speeddating.git
