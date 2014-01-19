@@ -10,12 +10,7 @@ let g:pathogen_disabled = []
 " some plugins require python
 if ! has('python')
   call add(g:pathogen_disabled, 'editorconfig')
-  call add(g:pathogen_disabled, 'vdebug')
-endif
-
-" these plugins appear not work on Windows :(
-if has('win32') || has('win64')
-  call add(g:pathogen_disabled, 'editorconfig')
+  call add(g:pathogen_disabled, 'orgmode')
   call add(g:pathogen_disabled, 'vdebug')
 endif
 
