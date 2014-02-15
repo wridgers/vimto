@@ -35,11 +35,8 @@
 " uncomment to enable airline's tabline
 " let g:vimto#enable_tabline = 1
 
-" uncomment to enable vimproc.
+" uncomment to enable vimproc
 " let g:vimto#enable_vimproc = 1
-
-" uncomment to enable youcompleteme and disable supertab
-" let g:vimto#enable_ycm = 1
 
 " load vimto
 source ~/.vimto/vimtorc

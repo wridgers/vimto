@@ -17,3 +17,15 @@ autocmd FileType text setlocal textwidth=80
 " turn off paste when leaving insert mode
 au InsertLeave * set nopaste
 
+" set omnifunc to default
+set omnifunc=syntaxcomplete#Complete
+
+" omnicompletion
+autocmd FileType css,less,scss setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html,markdown,jade setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType php setlocal omnifunc=phpcomplete#Complete
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+

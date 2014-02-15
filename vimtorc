@@ -20,13 +20,12 @@ if ! exists('vimto#enable_vimproc')
   call add(g:pathogen_disabled, 'vimshell')
 endif
 
-" use ycm over supertab
-if exists('vimto#enable_ycm')
-  " disable supertab
-  call add(g:pathogen_disabled, 'supertab')
+if has('lua')
+  " neocomplete
+  call add(g:pathogen_disabled, 'neocomplcache')
 else
-  " don't use ycm, fallback to supertab
-  call add(g:pathogen_disabled, 'ycm')
+  " fallback to neocomplcache
+  call add(g:pathogen_disabled, 'neocomplete')
 endif
 
 " infect

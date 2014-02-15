@@ -136,3 +136,9 @@
 [submodule "plugins/speeddating"]
 	path = plugins/speeddating
 	url = https://github.com/tpope/vim-speeddating.git
+[submodule "plugins/neocomplete"]
+	path = plugins/neocomplete
+	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule "plugins/neocomplcache"]
+	path = plugins/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.vim.git
