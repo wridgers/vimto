@@ -27,7 +27,7 @@ if has('gui_running')
   " retina'ness
   if has('mac')
     " TODO: make this configurable
-    set guifont=Anonymous\ Pro:h16
+    set guifont=Anonymous\ Pro:h14
   endif
 
   " optionally strip down the gui
