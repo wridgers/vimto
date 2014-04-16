@@ -1,5 +1,5 @@
 " custom vimto key mapping, all in one file for easy consumption
-if !exists('vimto#disable_mapping')
+if !g:vimto#disable_mapping
 
   " sensible cursor movement with long lines
   nnoremap j gj

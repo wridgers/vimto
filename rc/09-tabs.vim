@@ -1,8 +1,3 @@
-" default to four space tabbing
-if !exists('vimto#tab_size')
-  let g:vimto#tab_size = 4
-endif
-
 " replace tabs with spaces
 set expandtab
 

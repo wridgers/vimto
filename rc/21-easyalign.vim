@@ -1,4 +1,4 @@
-if !exists('vimto#disable_mapping')
+if !g:vimto#disable_mapping
   " visual selection easyalign
   vmap <Enter> <Plug>(EasyAlign)
 

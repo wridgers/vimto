@@ -1,17 +1,8 @@
 " set colorscheme
 if !has('gui_running')
-  if !exists('vimto#term_theme')
-    let g:vimto#term_theme = 'jellybeans'
-  endif
-
-  if exists('vimto#term_background_light')
-    set background=light
-  else
-    set background=dark
-  endif
-
   " set the colorscheme
   execute 'colorscheme '  . g:vimto#term_theme
+  execute 'set background='  . g:vimto#term_background
 endif
 
 " nice terminal title

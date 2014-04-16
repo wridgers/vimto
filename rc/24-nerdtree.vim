@@ -1,5 +1,5 @@
 " nerdtree
-if !exists('vimto#disable_mapping')
+if !g:vimto#disable_mapping
   nmap <F8> :NERDTreeToggle<CR>
 endif
 

@@ -34,7 +34,7 @@ execute pathogen#infect('~/.vimto/plugins/{}', '~/.vimto/themes/{}', '~/.vim/plu
 execute pathogen#helptags()
 
 " source rc directory
-for rcfile in split(globpath('$HOME/.vimto/rc', '*.vim'), '\n') 
+for rcfile in split(globpath('$HOME/.vimto/rc', '*.vim'), '\n')
   execute('source ' . rcfile)
 endfor
 

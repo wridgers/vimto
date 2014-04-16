@@ -1,18 +1,8 @@
 " these are gui related settings
 if has('gui_running')
-  if !exists('vimto#gui_theme')
-    let g:vimto#gui_theme = 'base16-default'
-  endif
-
-  " dark or light
-  if exists('vimto#gui_background_light')
-    set background=light
-  else
-    set background=dark
-  endif
-
   " set the colorscheme
   execute 'colorscheme '  . g:vimto#gui_theme
+  execute 'set background='  . g:vimto#gui_background
 
   " TODO: make this configurable
   set guifont=Anonymous\ Pro:h11
@@ -20,7 +10,7 @@ if has('gui_running')
   " TODO: make this configurable
   set lines=35 columns=160
 
-  if exists('vimto#gui_transparent')
+  if g:vimto#gui_transparent
     set transparency=5
   endif
 
@@ -31,7 +21,7 @@ if has('gui_running')
   endif
 
   " optionally strip down the gui
-  if exists('vimto#minimal_gui')
+  if g:vimto#minimal_gui
     " remove toolbar
     set guioptions-=T
 
