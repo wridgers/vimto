@@ -1,10 +1,10 @@
 @echo off
 
 :: file extensions
-set EXT_LIST=(asc bib c cfg coffee conf cpp css ejs erb frag fp glsl gpg go h hpp hs ini jade js json less org pgp php php4 php5 phps pl py rb scss sh vert vim vp xml lua log markdown md nfo tex text txt yaml yml)
+set EXT_LIST=(asc bib c cc cfg coffee conf cpp css ejs erb frag fp glsl gpg go h hpp hs ini jade js json less org pgp php php4 php5 phps pl py rb scss sh vert vim vp xml lua log markdown md nfo tex text twig txt yaml yml)
 ftype txtfile="C:\Program Files (x86)\Vim\vim74\gvim.exe" --remote-silent "%%1"
 
-for %%e in %EXT_LIST% do ( 
+for %%e in %EXT_LIST% do (
     assoc .%%e=txtfile
     REG ADD "HKEY_CLASSES_ROOT\.%%e" /f /ve /d "txtfile"
     REG ADD "HKEY_CLASSES_ROOT\.%%e" /f /v "Content Type" /d "text/plain"
