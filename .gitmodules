@@ -142,3 +142,30 @@
 [submodule "plugins/neocomplcache"]
 	path = plugins/neocomplcache
 	url = https://github.com/Shougo/neocomplcache.vim.git
+[submodule "plugins/numbers"]
+	path = plugins/numbers
+	url = https://github.com/myusuf3/numbers.vim
+[submodule "plugins/sensible"]
+	path = plugins/sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "plugins/unite-outline"]
+	path = plugins/unite-outline
+	url = https://github.com/Shougo/unite-outline
+[submodule "plugins/unite-help"]
+	path = plugins/unite-help
+	url = https://github.com/Shougo/unite-help
+[submodule "plugins/unite-session"]
+	path = plugins/unite-session
+	url = https://github.com/Shougo/unite-session
+[submodule "plugins/neosnippet"]
+	path = plugins/neosnippet
+	url = https://github.com/Shougo/neosnippet
+[submodule "plugins/session"]
+	path = plugins/session
+	url = https://github.com/xolox/vim-session
+[submodule "plugins/neosnippet-snippets"]
+	path = plugins/neosnippet-snippets
+	url = https://github.com/Shougo/neosnippet-snippets
+[submodule "plugins/misc"]
+	path = plugins/misc
+	url = https://github.com/xolox/vim-misc
