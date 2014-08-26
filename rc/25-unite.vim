@@ -7,12 +7,13 @@ let g:unite_split_rule = "botright"
 let g:unite_force_overwrite_statusline = 0
 let g:unite_winheight = 25
 
-" custom source
-call unite#custom_source('file_rec,file_rec/async,file_mru,file,buffer,grep',
+" custom ignore pattern
+call unite#custom#source('file_rec,file_rec/async',
       \ 'ignore_pattern', join([
-      \ '\.git/',
-      \ 'vendor/',
-      \ 'node_modules/',
+        \ '\.bzr\/',
+        \ '\.git\/',
+        \ 'vendor\/',
+        \ 'node_modules\/',
       \ ], '\|'))
 
 " fuzzy matcher and sort everything
