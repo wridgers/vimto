@@ -169,3 +169,12 @@
 [submodule "plugins/misc"]
 	path = plugins/misc
 	url = https://github.com/xolox/vim-misc
+[submodule "plugins/syntax-extra"]
+	path = plugins/syntax-extra
+	url = https://github.com/justinmk/vim-syntax-extra.git
+[submodule "plugins/gtfo"]
+	path = plugins/gtfo
+	url = https://github.com/justinmk/vim-gtfo.git
+[submodule "plugins/sneak"]
+	path = plugins/sneak
+	url = https://github.com/justinmk/vim-sneak.git
