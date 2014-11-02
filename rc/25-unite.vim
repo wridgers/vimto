@@ -26,6 +26,7 @@ let g:unite_matcher_fuzzy_max_input_length = 50
 if !g:vimto#disable_mapping
   " basic unite mappings
   nnoremap <leader>b :Unite buffer<cr>
+  nnoremap <leader>g :Unite grep<cr>
   nnoremap <leader>h :Unite help<cr>
   nnoremap <leader>o :Unite outline<cr>
   nnoremap <leader>r :Unite file_mru<cr>
