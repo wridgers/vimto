@@ -160,9 +160,6 @@
 [submodule "plugins/neosnippet"]
 	path = plugins/neosnippet
 	url = https://github.com/Shougo/neosnippet
-[submodule "plugins/session"]
-	path = plugins/session
-	url = https://github.com/xolox/vim-session
 [submodule "plugins/neosnippet-snippets"]
 	path = plugins/neosnippet-snippets
 	url = https://github.com/Shougo/neosnippet-snippets
