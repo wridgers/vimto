@@ -73,9 +73,6 @@
 [submodule "plugins/coffeescript"]
 	path = plugins/coffeescript
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "plugins/golang"]
-	path = plugins/golang
-	url = https://github.com/jnwhiteh/vim-golang.git
 [submodule "plugins/css3"]
 	path = plugins/css3
 	url = https://github.com/hail2u/vim-css3-syntax.git
@@ -175,3 +172,6 @@
 [submodule "plugins/sneak"]
 	path = plugins/sneak
 	url = https://github.com/justinmk/vim-sneak.git
+[submodule "plugins/go"]
+	path = plugins/go
+	url = https://github.com/fatih/vim-go
